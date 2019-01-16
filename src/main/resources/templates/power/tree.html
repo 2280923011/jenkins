@@ -16,8 +16,7 @@
             :data="treeData"
             accordion
             @node-click="handleNodeClick"
-            :icon-class="icon"
-    >
+            :icon-class="icon">
 
     </el-tree>
 </div>
@@ -34,6 +33,7 @@
                 _self.treeData = response.data;
             })
         },
+
         methods:{
             handleNodeClick:function(n){
                 alert(n.label+",url"+n.url);

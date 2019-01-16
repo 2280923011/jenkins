@@ -21,7 +21,7 @@ public class PowerController {
 
     /**
      * 跳转权限树页面
-     * @return
+     *
      */
     @RequestMapping("/toTree")
     public String toTree(){
